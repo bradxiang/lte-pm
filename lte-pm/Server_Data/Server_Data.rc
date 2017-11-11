@@ -1,0 +1,268 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifndef APSTUDIO_INVOKED
+#include "targetver.h"
+#endif
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(简体，中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#include ""res\\Server_Data.rc2""  // 非 Microsoft Visual C++ 编辑的资源\r\n"
+    "#include ""l.CHS\\afxres.rc""      // 标准组件\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\Server_Data.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_SERVER_DATA_DIALOG DIALOGEX 0, 0, 805, 241
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "多网融合优化分析系统_性能计算"
+FONT 9, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "开始工作",IDOK,96,9,43,13
+    LTEXT           "",IDC_STATIC_SLIT_PANE,6,38,571,101,WS_BORDER
+    PUSHBUTTON      "指令导出",IDC_FILE,243,9,43,13
+    CONTROL         "",IDC_LIST_RECORD3,"SysListView32",LVS_REPORT | LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,152,151,124,80,WS_EX_DLGMODALFRAME | WS_EX_CLIENTEDGE
+    PUSHBUTTON      "关于...",IDC_BUTTON1,341,9,43,13
+    CONTROL         "",IDC_LIST_RECORD4,"SysListView32",LVS_REPORT | LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,7,150,138,81,WS_EX_DLGMODALFRAME | WS_EX_CLIENTEDGE
+    DEFPUSHBUTTON   "结束工作",IDOK2,145,9,43,13
+    ICON            IDR_MAINFRAME,IDC_STATIC,477,9,20,20
+    CONTROL         "",IDC_LIST4,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,282,150,141,81,WS_EX_DLGMODALFRAME | WS_EX_CLIENTEDGE
+    LTEXT           "工作进程：",IDC_STATIC,613,40,35,8,NOT WS_VISIBLE
+    CONTROL         "日志",IDC_CHECK1,"Button",BS_AUTOCHECKBOX | NOT WS_VISIBLE | WS_TABSTOP,688,75,30,10
+    LTEXT           "监听端口：",IDC_STATIC,9,9,35,8
+    LTEXT           "",IDC_STATIC2,45,9,41,12,0,WS_EX_CLIENTEDGE
+    CONTROL         "",IDC_LIST5,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,436,150,141,81,WS_EX_DLGMODALFRAME | WS_EX_CLIENTEDGE
+    PUSHBUTTON      "异常导出",IDC_FILE2,292,9,43,13
+    PUSHBUTTON      "客户导出",IDC_FILE3,194,9,43,13
+    LTEXT           "",IDC_STATIC3,707,51,18,12,NOT WS_VISIBLE,WS_EX_CLIENTEDGE
+    LTEXT           "",IDC_STATIC1,608,53,43,12,NOT WS_VISIBLE,WS_EX_CLIENTEDGE
+    PUSHBUTTON      "采集有效",IDC_BUTTON4,609,70,43,23,NOT WS_VISIBLE,WS_EX_DLGMODALFRAME
+    LTEXT           "待处理文件：",IDC_STATIC,388,9,42,8
+    LTEXT           "",IDC_STATIC_FILECOUNT,429,9,43,12,0,WS_EX_CLIENTEDGE
+    LTEXT           "处理粒度：",IDC_STATIC,502,9,35,8
+    LTEXT           "",IDC_STATIC_PRCTIME,536,9,62,12,0,WS_EX_CLIENTEDGE
+    PUSHBUTTON      "系统参数",IDC_SYSTEM_PARM,605,9,43,13
+    LTEXT           "",IDC_STATIC_FILECOUNT2,685,51,20,12,NOT WS_VISIBLE,WS_EX_CLIENTEDGE
+    LTEXT           "",IDC_STATIC4,729,51,18,12,NOT WS_VISIBLE,WS_EX_CLIENTEDGE
+    CONTROL         "信息详情!",IDC_CHECK_MONITOR,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,655,10,46,10
+END
+
+IDD_EXIT_CONFIRM DIALOGEX 0, 0, 191, 102
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "系统退出确认"
+FONT 9, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EDIT1,82,24,82,13,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "确定",IDOK,43,68,43,13
+    PUSHBUTTON      "取消",IDCANCEL,105,68,43,13
+    LTEXT           "请输入退出密码：",IDC_STATIC,22,26,57,12
+    LTEXT           "密码：Server_Data",IDC_STATIC,84,43,81,11
+END
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 279, 176
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于 多网融合优化分析系统_性能计算"
+FONT 9, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    LTEXT           "多网融合优化分析系统_性能计算",-1,146,12,114,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2016",-1,146,40,114,8
+    CONTROL         "",-1,"Static",SS_ETCHEDFRAME,146,90,125,1
+    CONTROL         "",-1,"Static",SS_ETCHEDFRAME,146,168,125,1
+    LTEXT           "中国移动辽宁公司大连分公司",IDC_COMPANY,146,56,90,8
+    LTEXT           "大连理工大学 信息与通信工程学院",-1,146,117,106,8
+    LTEXT           "Tel: (0411)84706262,13500754382",-1,146,135,115,8
+    LTEXT           "E_mail: xieyp@dlut.edu.cn",-1,146,153,83,8
+    LTEXT           "版本:1.0",-1,146,26,114,8,SS_NOPREFIX
+    LTEXT           "使用期限：2020-12-31",-1,146,73,72,8
+    LTEXT           "【系统开发】",-1,146,97,42,8
+    CONTROL         314,IDB_ABOUT,"Static",SS_BITMAP,26,32,95,113
+END
+
+IDD_SYSTEM_PARM DIALOGEX 0, 0, 687, 299
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "系统参数"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_LIST1,"SysListView32",LVS_REPORT | LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,14,54,662,238,WS_EX_DLGMODALFRAME | WS_EX_CLIENTEDGE
+    PUSHBUTTON      "文件队列",IDC_MONITOR,17,15,50,14
+    EDITTEXT        IDC_EDIT1,480,15,40,14,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT2,589,15,40,14,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT3,479,36,40,14,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT4,383,15,40,14,ES_AUTOHSCROLL | ES_READONLY | NOT WS_VISIBLE
+    EDITTEXT        IDC_EDIT5,589,36,73,14,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "表保存期限",IDC_STATIC,436,15,41,8
+    LTEXT           "15m保存期限",IDC_STATIC,431,36,46,8
+    LTEXT           "FTP粒度",IDC_STATIC,344,15,29,8,NOT WS_VISIBLE
+    LTEXT           "完成粒度",IDC_STATIC,548,36,33,8
+    LTEXT           "GZ文件保存期限",IDC_STATIC,529,15,58,8
+    PUSHBUTTON      "结束监控",IDC_MONITOR2,281,15,50,14
+    PUSHBUTTON      "SQL队列",IDC_SQLQUEUE,75,15,50,14
+    PUSHBUTTON      "基本性能队列",IDC_BASEPMQUEUE,140,15,56,14
+    PUSHBUTTON      "计算性能队列",IDC_CALPMQUEUE,17,36,56,14
+    PUSHBUTTON      "全网性能队列",IDC_NETWORKPMQUEUE,75,36,56,14
+    PUSHBUTTON      "区域性能队列",IDC_REGIONPMQUEUE,140,36,56,14
+    PUSHBUTTON      "小时基本性能队列",IDC_HOURBASEPMQUEUE,205,36,71,14
+    PUSHBUTTON      "小时计算性能队列",IDC_HOURCALPMQUEUE2,205,15,71,14
+    PUSHBUTTON      "华为性能队列",IDC_HWPMQUEUE,280,36,58,14
+    PUSHBUTTON      "中兴性能队列",IDC_ZTEPMQUEUE,344,36,58,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080403a8"
+        BEGIN
+            VALUE "CompanyName", "大连理工大学"
+            VALUE "FileDescription", "多网融合优化分析系统_性能计算"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "Server_Data.exe"
+            VALUE "LegalCopyright", "大连理工大学"
+            VALUE "OriginalFilename", "Server_Data.exe"
+            VALUE "ProductName", "多网融合优化分析系统_性能计算"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 936
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_ABOUT               BITMAP                  "res\\About.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_SERVER_DATA_DIALOG, DIALOG
+    BEGIN
+        RIGHTMARGIN, 798
+    END
+
+    IDD_SYSTEM_PARM, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 680
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 292
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // 中文(简体，中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#pragma code_page(936)
+#include "res\Server_Data.rc2"  // 非 Microsoft Visual C++ 编辑的资源
+#include "l.CHS\afxres.rc"      // 标准组件
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{930a1e8b-83c8-44a3-942a-f4ef9e8ce764}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{57013a28-e3c8-42c8-9d98-453ff8c4c40a}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="zip">
+      <UniqueIdentifier>{7201141a-411e-4f0f-94d3-4a4d18f1d74f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gzip">
+      <UniqueIdentifier>{01350396-3ea4-4a69-b493-d7aafafa0279}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DecompressClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="XUnzip.cpp">
+      <Filter>zip</Filter>
+    </ClCompile>
+    <ClCompile Include="adler32.c">
+      <Filter>gzip</Filter>
+    </ClCompile>
+    <ClCompile Include="compress.c">
+      <Filter>gzip</Filter>
+    </ClCompile>
+    <ClCompile Include="crc32.c">
+      <Filter>gzip</Filter>
+    </ClCompile>
+    <ClCompile Include="deflate.c">
+      <Filter>gzip</Filter>
+    </ClCompile>
+    <ClCompile Include="gzio.c">
+      <Filter>gzip</Filter>
+    </ClCompile>
+    <ClCompile Include="gzip.cpp">
+      <Filter>gzip</Filter>
+    </ClCompile>
+    <ClCompile Include="infblock.c">
+      <Filter>gzip</Filter>
+    </ClCompile>
+    <ClCompile Include="infcodes.c">
+      <Filter>gzip</Filter>
+    </ClCompile>
+    <ClCompile Include="inffast.c">
+      <Filter>gzip</Filter>
+    </ClCompile>
+    <ClCompile Include="inflate.c">
+      <Filter>gzip</Filter>
+    </ClCompile>
+    <ClCompile Include="inftrees.c">
+      <Filter>gzip</Filter>
+    </ClCompile>
+    <ClCompile Include="infutil.c">
+      <Filter>gzip</Filter>
+    </ClCompile>
+    <ClCompile Include="trees.c">
+      <Filter>gzip</Filter>
+    </ClCompile>
+    <ClCompile Include="uncompr.c">
+      <Filter>gzip</Filter>
+    </ClCompile>
+    <ClCompile Include="zutil.c">
+      <Filter>gzip</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DecompressClass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="XUnzip.h">
+      <Filter>zip</Filter>
+    </ClInclude>
+    <ClInclude Include="deflate.h">
+      <Filter>gzip</Filter>
+    </ClInclude>
+    <ClInclude Include="GnuTar.h">
+      <Filter>gzip</Filter>
+    </ClInclude>
+    <ClInclude Include="gzip.h">
+      <Filter>gzip</Filter>
+    </ClInclude>
+    <ClInclude Include="infblock.h">
+      <Filter>gzip</Filter>
+    </ClInclude>
+    <ClInclude Include="infcodes.h">
+      <Filter>gzip</Filter>
+    </ClInclude>
+    <ClInclude Include="inffast.h">
+      <Filter>gzip</Filter>
+    </ClInclude>
+    <ClInclude Include="inffixed.h">
+      <Filter>gzip</Filter>
+    </ClInclude>
+    <ClInclude Include="inftrees.h">
+      <Filter>gzip</Filter>
+    </ClInclude>
+    <ClInclude Include="infutil.h">
+      <Filter>gzip</Filter>
+    </ClInclude>
+    <ClInclude Include="trees.h">
+      <Filter>gzip</Filter>
+    </ClInclude>
+    <ClInclude Include="zconf.h">
+      <Filter>gzip</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib.h">
+      <Filter>gzip</Filter>
+    </ClInclude>
+    <ClInclude Include="zutil.h">
+      <Filter>gzip</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
