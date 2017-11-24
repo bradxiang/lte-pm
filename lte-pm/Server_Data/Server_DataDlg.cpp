@@ -2017,7 +2017,7 @@ bool CServer_DataDlg::ExecuteSQL(CString v_sSql)
 	{
 		// 连接数据库
 		v_cAdoConn.OnInitADOConn(theApp.a_iDatabase_Type,theApp.a_sDatabase_Ip,theApp.a_sDatabase_Name,theApp.a_sDatabase_User,theApp.a_sDatabase_Password);
-		v_cAdoConn.SetCommandTimeout(120000);
+		v_cAdoConn.SetCommandTimeout(8*60);
 		v_cAdoConn.ExecuteSQL((_bstr_t)v_sSql);							//执行数据库操作
 		v_cAdoConn.ExitConnect();										//断开连接
 		return true;

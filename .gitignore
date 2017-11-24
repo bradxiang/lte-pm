@@ -4,6 +4,7 @@
 lte-pm/ipch
 lte-pm/Server_Data/DATA
 lte-pm/Server_Data/x64
+lte-pm/x64
 DecompressLibrary/Debug
 DecompressLibrary/Release
 DecompressLibrary/x64
